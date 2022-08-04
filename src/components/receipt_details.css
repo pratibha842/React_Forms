@@ -1,0 +1,221 @@
+body {
+    background-color: #e4e4e4;
+}
+
+.title {
+    text-decoration: underline;
+}
+
+.container.main__container {
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
+.red {
+    color: red;
+}
+
+.input_deisgn {
+    margin-left: 6.8%;
+    border-radius: 5px;
+    background-color:transparent;
+    border-color: grey;
+    padding: 0.5rem;
+}
+
+.amount_design {
+    margin-left: 5%;
+    border-radius: 5px;
+    background-color:  transparent;
+    border-color: grey;
+    padding: 0.5rem;
+}
+
+.payment_design {
+    float: right;
+    padding: 0.5rem;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: gray;
+    margin-right: 65.4%;
+    width: 25%;
+}
+
+.remark_deisgn {
+    margin-left: 5.5%;
+    border-radius: 5px;
+    background-color:  transparent;
+    border-color: grey;
+    padding: 0.5rem;
+    margin-top: 10px;
+}
+
+.remark {
+    margin-top: 20px;
+}
+
+.receipt_cancel {
+     border-radius: 5px;
+     border-color: red;
+     text-align: center;
+     color: red;
+     padding: 0.5rem;
+     margin-left: 30%;
+}
+
+.receipt_submit {
+    border-radius: 5px;
+    border-color: green;
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: 0.5rem;
+    
+}
+
+.view-container {
+    width: 74%;    
+    background-color: #e4e4e4;
+    display: flex;
+    float: right;
+    padding-right: 16%;
+    flex-direction: column;
+    border: black;
+  }
+
+tbody{
+    margin-top: 10px;
+}
+
+table, td, th {
+  border: 1px solid;
+}
+
+table {
+  margin-top: 10%;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+} 
+
+@media screen and (max-width: 1024px) {
+
+    .input_deisgn {
+        margin-left: 12.5%;
+        border-radius: 5px;
+        background-color:transparent;
+        border-color: grey;
+        padding: 0.5rem;
+    }
+    
+    .amount_design {
+        margin-left: 9.5%;
+        border-radius: 5px;
+        background-color:  transparent;
+        border-color: grey;
+        padding: 0.5rem;
+    }
+    
+    .payment_design {
+        float: right;
+        padding: 0.5rem;
+        background-color: transparent;
+        border-radius: 5px;
+        border-color: gray;
+        margin-right: 42%;
+        width: 40%;
+    }
+    
+    .remark_deisgn {
+        margin-left: 10.5%;
+        border-radius: 5px;
+        background-color:  transparent;
+        border-color: grey;
+        padding: 0.5rem;
+        margin-top: 10px;
+    }
+
+    .receipt_cancel {
+        border-radius: 5px;
+        border-color: red;
+        text-align: center;
+        color: red;
+        padding: 0.5rem;
+        margin-left: 60%;
+   }
+   
+   .receipt_submit {
+       border-radius: 5px;
+       border-color: green;
+       text-align: center;
+       color: white;
+       background-color: green;
+       padding: 0.5rem;
+       
+   }
+   
+  
+}
+
+@media screen and (max-width: 600px) {
+
+    
+    .input_deisgn {
+        margin-left: 20%;
+        width: 40%;
+        border-radius: 5px;
+        background-color:transparent;
+        border-color: grey;
+        padding: 0.5rem;
+    }
+    
+    .amount_design {
+        margin-left: 14%;
+        width: 55%;
+        border-radius: 5px;
+        background-color:  transparent;
+        border-color: grey;
+        padding: 0.5rem;
+    }
+    
+    .payment_design {
+        float: right;
+        padding: 0.5rem;
+        background-color: transparent;
+        border-radius: 5px;
+        border-color: gray;
+        margin-right: 25%;
+        width: 45%;
+    }
+    
+    .remark_deisgn {
+        margin-left: 16%;
+        border-radius: 5px;
+        background-color:  transparent;
+        border-color: grey;
+        padding: 0.5rem;
+        margin-top: 10px;
+        width: 55%;
+    }
+
+    .receipt_cancel {
+        border-radius: 5px;
+        border-color: red;
+        text-align: center;
+        color: red;
+        padding: 0.5rem;
+        margin-left: 50%;
+   }
+   
+   .receipt_submit {
+       border-radius: 5px;
+       border-color: green;
+       text-align: center;
+       color: white;
+       background-color: green;
+       padding: 0.5rem;
+       
+   }
+ 
+    
+}
